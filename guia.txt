@@ -1,3 +1,3 @@
 sudo docker run dajobe/hbase
-docker exec -it hbase-furb /bin/bas
+docker exec -it hbase-furb /bin/bash
 sudo docker run --rm -it --link c30207d14d83:hbase-docker dajobe/hbase hbase shell
